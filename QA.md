@@ -37,4 +37,22 @@ FROM
 ```
 3.Proper Syntax Used.
 
-4 .
+4 .Cross Check
+
+```
+SELECT COUNT(temp) 
+FROM    (
+        SELECT 
+        a.visitid ,b.visitid,a.productsku as temp,units_sold
+        FROM all_sessions a
+        INNER JOIN analytics b
+        ON a.visitid = b.visitid
+        where units_sold is not null
+    ) tmp
+	
+SELECT count(productsku) 
+FROM sales_by_sku where total_ordered is not null
+
+```
+
+Got same results 306

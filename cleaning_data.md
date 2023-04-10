@@ -61,12 +61,19 @@ WHERE
 ```
 step 4:
 
-Chage date format
+Chage  format
 ```
 UPDATE
          table_name 
 SET
          date_column = TO_DATE(varchar_column, 'YYYYMMDD');
 
+```
+UPDATE 
+        all_sessions
+SET 
+        price = price/1000000 
+
+```
 
 
