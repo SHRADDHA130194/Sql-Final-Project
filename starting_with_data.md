@@ -21,7 +21,15 @@ ORDER BY s.total_ordered DESC , p.orderedquantity DESC
 
 Answer: 
 
-2.1_itemsToRestock.csv
+Android Infant Short Sleeve Tee Pewter
+
+
+ Youth Baseball Raglan Heather/Black
+
+
+
+
+
 
 
 Question 2: 
@@ -46,7 +54,13 @@ ORDER BY stocklevel DESC
 ```
 Answer:
 
-2.2_Cassification_of_products.csv
+Not In Demand
+
+
+In Demand
+
+
+High In Demand
 
 Question 3: 
 
@@ -68,7 +82,35 @@ ORDER BY revenue DESC,a2.timeonsite
 ```
 Answer:
 
-2.3_time_spend_by_customer.csv
+timeonsite
+264
+
+800
+
+943
+
+392
+
+539
+
+483
+
+777
+
+1222
+
+1222
+
+1169
+
+483
+
+214
+
+800
+
+1222
+
 
 Question 4: 
 
@@ -88,7 +130,7 @@ WHERE revenue is not null
 
 Answer:
 
-2.4_timespend.csv
+Increase in time spend increase revenue
 
 
 
@@ -112,5 +154,6 @@ WHERE productrevenue is not null
 
 Answer:
 
+ Cam Indoor Security Camera - USA
 
 2.5_highest SellingProduct.csv
